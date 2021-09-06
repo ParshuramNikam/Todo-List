@@ -1,0 +1,27 @@
+.item {
+	margin: auto;
+	width: 18.5rem;
+	min-height: 2rem;
+	padding: 0.5rem 1rem;
+	padding-right: 2rem;
+	font-size: large;
+	background: rgb(41, 97, 150);
+	color: white;
+	border-radius: 2px;
+	transition: all 0.3s;
+	border: 3px solid none;
+	margin-bottom: 0.5rem;
+}
+
+.item button {
+	position: relative;
+	height: 2rem;
+	top: 0;
+	left: 98%;
+	color: black;
+	background: white;
+	outline: none;
+}
+.item:hover {
+	background: rgba(41, 97, 150, 0.836);
+}

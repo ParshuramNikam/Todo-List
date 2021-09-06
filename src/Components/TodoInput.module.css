@@ -1,0 +1,31 @@
+.inputTodo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 1.5rem;
+	padding-left: 0.5rem;
+}
+
+.inputTodo input {
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+	width: 20rem;
+	height: 2rem;
+	border: 2px solid black;
+	font-size: large;
+}
+
+.inputTodo button {
+	position: relative;
+	height: 2rem;
+	top: 2rem;
+	right: 2.2rem;
+	color: black;
+	background: white;
+	outline: none;
+	/* border: none; */
+}
+
+.inputTodo button:hover {
+	color: red;
+}
